@@ -1,3 +1,7 @@
 
-#game {width: 40vw; height: 50vh; box-shadow: 0 0 8px grey; padding: 20px; text-align: center; margin: 30px auto;}
-button {margin: 10px; cursor: pointer;}
+* {font-family:Arial, Helvetica, sans-serif;}
+#game {width: 40vw; height: 40vh; box-shadow: 0 0 8px rgb(109, 102, 102); padding: 100px; text-align: center; margin: 60px auto; background: rgb(111, 142, 109);}
+button {margin: 30px; cursor: pointer; width: 150px; height: 30px;font-size: 1rem; background-color: grey; border: none; box-shadow: 0 0 8px rgb(147, 243, 147); border-radius: 8px;}
+button:hover {background-color: rgb(147, 243, 147); font-weight: bold;}
+#unit {width: 60%; height: 30px; font-size: 20px;}
+#result {font-size: 1.2rem; color: white; font-weight: bold;}
